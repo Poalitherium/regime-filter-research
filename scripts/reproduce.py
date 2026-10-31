@@ -74,7 +74,7 @@ def check_inputs(stage: str) -> None:
     missing = [p for p in needed if not (ROOT/p).is_file()]
     if missing:
         raise FileNotFoundError('Missing inputs:\n  ' + '\n  '.join(missing) +
-                                '\nSee README.md and m4/data/README.md.')
+                                '\nSee the Data section of README.md.')
 
 
 def main() -> int:
