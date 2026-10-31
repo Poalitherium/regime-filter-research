@@ -1,0 +1,9 @@
+# Isolated reference environment; not the project's production dependencies.
+# Python 3.12, using the published hmmlearn 0.3.3 wheel.
+hmmlearn==0.3.3
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+numba==0.61.2
+pandas==2.3.3
+threadpoolctl==3.6.0
